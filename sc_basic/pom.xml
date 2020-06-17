@@ -10,9 +10,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <modules>
-        <module>client_service_A</module>
-        <module>client_service_B</module>
+        <module>service_A</module>
+        <module>service_B</module>
         <module>eurake_server</module>
+        <module>service_C</module>
     </modules>
 
     <parent>
