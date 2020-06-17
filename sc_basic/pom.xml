@@ -13,7 +13,6 @@
         <module>client_service_A</module>
         <module>client_service_B</module>
         <module>eurake_server</module>
-        <module>client_zipkin_trace</module>
     </modules>
 
     <parent>
