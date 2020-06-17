@@ -1,4 +1,4 @@
-package com.tinyv.sc.client_b.feign_service;
+package com.tinyv.sc.client_b.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
