@@ -1,0 +1,1 @@
+java -jar E:\env\zipkin\zipkin-server-2.21.4-exec.jar
