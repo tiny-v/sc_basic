@@ -17,7 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 
-    private static final String SWAGGER_BASE_SCAN_PACKAGE = "com.tinyv.sc.client_b.controller";
+    private static final String SWAGGER_BASE_SCAN_PACKAGE = "com.tinyv.sc.serviceb.controller";
 
     @Bean
     public Docket createRestApi() {

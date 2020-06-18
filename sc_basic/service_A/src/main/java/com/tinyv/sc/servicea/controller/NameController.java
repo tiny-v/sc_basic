@@ -21,4 +21,10 @@ public class NameController {
         return nameService.getServiceName(System.currentTimeMillis()+"");
     }
 
+
+    @GetMapping("/getServiceNameBlocked")
+    public String getServiceNameBlocked(){
+        return nameService.getServiceNameBlocked(System.currentTimeMillis()+"");
+    }
+
 }

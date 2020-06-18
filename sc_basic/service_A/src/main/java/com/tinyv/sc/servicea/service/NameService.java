@@ -8,4 +8,11 @@ public interface NameService {
 
     String getServiceName(String param);
 
+    /**
+     * 该方法中，线程会先沉睡5秒钟， 然后返回一个String
+     * @param param
+     * @return
+     */
+    String getServiceNameBlocked(String param);
+
 }
